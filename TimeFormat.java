@@ -15,9 +15,9 @@ public class TimeFormat {
         // Replace this comment with the rest of your code
 
 		if (hours==0) {
-			if(minutes<10) {System.out.println("00:0"+minutes);}
+			if(minutes<10) {System.out.println("00:0"+minutes+" AM");}
 			else  {
-				System.out.println("00:"+minutes);
+				System.out.println("00:"+minutes+" AM");
 			}
 		}
 		else if (hours>12) {
